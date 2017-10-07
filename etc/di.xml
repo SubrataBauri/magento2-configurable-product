@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="\Magento\Swatches\Block\Product\Renderer\Configurable" type="Subrata\ConfigurableProduct\Block\Product\Renderer\Configurable" />
+    <virtualType name="ConfigurableFinalPriceResolver"
+                 type="Subrata\ConfigurableProduct\Pricing\Price\ConfigurablePriceResolver"
+                 xmlns:xsi="http://symfony.com/schema/dic/services">
+        <arguments>
+            <argument name="priceResolver" xsi:type="object">Magento\ConfigurableProduct\Pricing\Price\FinalPriceResolver</argument>
+        </arguments>
+    </virtualType>
+</config>

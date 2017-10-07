@@ -1,0 +1,20 @@
+{
+  "name": "subrata/configurableproduct",
+  "description": "A Magento 2 Module to customise configurable product price and swatch option",
+  "require": {
+    "php": "~5.6.5|7.0.2|7.0.4|~7.0.6",
+    "magento/module-catalog": "*",
+    "magento/module-configurable-product": "*",
+    "magento/module-swatches": "*"
+  },
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magic42\\ConfigurableProduct\\": ""
+    }
+  }
+}
