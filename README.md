@@ -1,9 +1,9 @@
 # magento2-configurable-product
-### A Magento 2 extension to customise configurable product price and swatch option
+### A Magento 2 extension to customise configurable product price
 
-Whenever all associated items of a configurable products are out of stock, the Price and Item Options are not shown in Magento 2
+Whenever all associated items of a configurable products are out of stock, the Price are not shown in Magento 2
 This feature is was there in Magento 1.x and is still carried on in Magento 2
-But in most cases seller doesn't want that. Even though the product is out of stock we still need to show price and available options.
+But in most cases seller doesn't want that. Even though the product is out of stock we still need to show price.
 
 If your store needs that feature you can install this module.
 
